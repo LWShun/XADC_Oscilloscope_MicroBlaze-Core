@@ -1,0 +1,406 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Thu Dec  8 16:29:44 2022
+# Process ID: 16676
+# Current directory: D:/Vivado/ADC/ADC.runs/synth_1
+# Command line: vivado.exe -log adc_wrapper.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source adc_wrapper.tcl
+# Log file: D:/Vivado/ADC/ADC.runs/synth_1/adc_wrapper.vds
+# Journal file: D:/Vivado/ADC/ADC.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source adc_wrapper.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/App/Vivado/2018.3/data/ip'.
+Command: synth_design -top adc_wrapper -part xc7a35tcsg324-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 12300 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:01 ; elapsed = 00:00:02 . Memory (MB): peak = 417.535 ; gain = 101.840
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'adc_wrapper' [D:/Vivado/ADC/ADC.srcs/sources_1/bd/adc/hdl/adc_wrapper.v:12]
+INFO: [Synth 8-6157] synthesizing module 'adc' [D:/Vivado/ADC/ADC.srcs/sources_1/bd/adc/synth/adc.v:13]
+INFO: [Synth 8-6157] synthesizing module 'adc_axi_uartlite_0_1' [D:/Vivado/ADC/ADC.runs/synth_1/.Xil/Vivado-16676-LAPTOP-N8Q4I7FI/realtime/adc_axi_uartlite_0_1_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'adc_axi_uartlite_0_1' (1#1) [D:/Vivado/ADC/ADC.runs/synth_1/.Xil/Vivado-16676-LAPTOP-N8Q4I7FI/realtime/adc_axi_uartlite_0_1_stub.v:6]
+WARNING: [Synth 8-350] instance 'axi_uartlite_0' of module 'adc_axi_uartlite_0_1' requires 22 connections, but only 21 given [D:/Vivado/ADC/ADC.srcs/sources_1/bd/adc/synth/adc.v:134]
+INFO: [Synth 8-6157] synthesizing module 'adc_clk_wiz_1_1' [D:/Vivado/ADC/ADC.runs/synth_1/.Xil/Vivado-16676-LAPTOP-N8Q4I7FI/realtime/adc_clk_wiz_1_1_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'adc_clk_wiz_1_1' (2#1) [D:/Vivado/ADC/ADC.runs/synth_1/.Xil/Vivado-16676-LAPTOP-N8Q4I7FI/realtime/adc_clk_wiz_1_1_stub.v:5]
+INFO: [Synth 8-6157] synthesizing module 'adc_mdm_1_1' [D:/Vivado/ADC/ADC.runs/synth_1/.Xil/Vivado-16676-LAPTOP-N8Q4I7FI/realtime/adc_mdm_1_1_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'adc_mdm_1_1' (3#1) [D:/Vivado/ADC/ADC.runs/synth_1/.Xil/Vivado-16676-LAPTOP-N8Q4I7FI/realtime/adc_mdm_1_1_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'adc_microblaze_0_1' [D:/Vivado/ADC/ADC.runs/synth_1/.Xil/Vivado-16676-LAPTOP-N8Q4I7FI/realtime/adc_microblaze_0_1_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'adc_microblaze_0_1' (4#1) [D:/Vivado/ADC/ADC.runs/synth_1/.Xil/Vivado-16676-LAPTOP-N8Q4I7FI/realtime/adc_microblaze_0_1_stub.v:6]
+WARNING: [Synth 8-350] instance 'microblaze_0' of module 'adc_microblaze_0_1' requires 52 connections, but only 51 given [D:/Vivado/ADC/ADC.srcs/sources_1/bd/adc/synth/adc.v:172]
+INFO: [Synth 8-6157] synthesizing module 'adc_microblaze_0_axi_periph_1' [D:/Vivado/ADC/ADC.srcs/sources_1/bd/adc/synth/adc.v:343]
+INFO: [Synth 8-6157] synthesizing module 'm00_couplers_imp_KQG914' [D:/Vivado/ADC/ADC.srcs/sources_1/bd/adc/synth/adc.v:793]
+INFO: [Synth 8-6155] done synthesizing module 'm00_couplers_imp_KQG914' (5#1) [D:/Vivado/ADC/ADC.srcs/sources_1/bd/adc/synth/adc.v:793]
+INFO: [Synth 8-6157] synthesizing module 'm01_couplers_imp_15Y116L' [D:/Vivado/ADC/ADC.srcs/sources_1/bd/adc/synth/adc.v:925]
+INFO: [Synth 8-6155] done synthesizing module 'm01_couplers_imp_15Y116L' (6#1) [D:/Vivado/ADC/ADC.srcs/sources_1/bd/adc/synth/adc.v:925]
+INFO: [Synth 8-6157] synthesizing module 's00_couplers_imp_1R64CXU' [D:/Vivado/ADC/ADC.srcs/sources_1/bd/adc/synth/adc.v:1291]
+INFO: [Synth 8-6155] done synthesizing module 's00_couplers_imp_1R64CXU' (7#1) [D:/Vivado/ADC/ADC.srcs/sources_1/bd/adc/synth/adc.v:1291]
+INFO: [Synth 8-6157] synthesizing module 'adc_xbar_1' [D:/Vivado/ADC/ADC.runs/synth_1/.Xil/Vivado-16676-LAPTOP-N8Q4I7FI/realtime/adc_xbar_1_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'adc_xbar_1' (8#1) [D:/Vivado/ADC/ADC.runs/synth_1/.Xil/Vivado-16676-LAPTOP-N8Q4I7FI/realtime/adc_xbar_1_stub.v:6]
+WARNING: [Synth 8-350] instance 'xbar' of module 'adc_xbar_1' requires 40 connections, but only 38 given [D:/Vivado/ADC/ADC.srcs/sources_1/bd/adc/synth/adc.v:752]
+INFO: [Synth 8-6155] done synthesizing module 'adc_microblaze_0_axi_periph_1' (9#1) [D:/Vivado/ADC/ADC.srcs/sources_1/bd/adc/synth/adc.v:343]
+INFO: [Synth 8-6157] synthesizing module 'microblaze_0_local_memory_imp_194RUMY' [D:/Vivado/ADC/ADC.srcs/sources_1/bd/adc/synth/adc.v:1057]
+INFO: [Synth 8-6157] synthesizing module 'adc_dlmb_bram_if_cntlr_1' [D:/Vivado/ADC/ADC.runs/synth_1/.Xil/Vivado-16676-LAPTOP-N8Q4I7FI/realtime/adc_dlmb_bram_if_cntlr_1_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'adc_dlmb_bram_if_cntlr_1' (10#1) [D:/Vivado/ADC/ADC.runs/synth_1/.Xil/Vivado-16676-LAPTOP-N8Q4I7FI/realtime/adc_dlmb_bram_if_cntlr_1_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'adc_dlmb_v10_1' [D:/Vivado/ADC/ADC.runs/synth_1/.Xil/Vivado-16676-LAPTOP-N8Q4I7FI/realtime/adc_dlmb_v10_1_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'adc_dlmb_v10_1' (11#1) [D:/Vivado/ADC/ADC.runs/synth_1/.Xil/Vivado-16676-LAPTOP-N8Q4I7FI/realtime/adc_dlmb_v10_1_stub.v:6]
+WARNING: [Synth 8-350] instance 'dlmb_v10' of module 'adc_dlmb_v10_1' requires 25 connections, but only 24 given [D:/Vivado/ADC/ADC.srcs/sources_1/bd/adc/synth/adc.v:1203]
+INFO: [Synth 8-6157] synthesizing module 'adc_ilmb_bram_if_cntlr_1' [D:/Vivado/ADC/ADC.runs/synth_1/.Xil/Vivado-16676-LAPTOP-N8Q4I7FI/realtime/adc_ilmb_bram_if_cntlr_1_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'adc_ilmb_bram_if_cntlr_1' (12#1) [D:/Vivado/ADC/ADC.runs/synth_1/.Xil/Vivado-16676-LAPTOP-N8Q4I7FI/realtime/adc_ilmb_bram_if_cntlr_1_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'adc_ilmb_v10_1' [D:/Vivado/ADC/ADC.runs/synth_1/.Xil/Vivado-16676-LAPTOP-N8Q4I7FI/realtime/adc_ilmb_v10_1_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'adc_ilmb_v10_1' (13#1) [D:/Vivado/ADC/ADC.runs/synth_1/.Xil/Vivado-16676-LAPTOP-N8Q4I7FI/realtime/adc_ilmb_v10_1_stub.v:6]
+WARNING: [Synth 8-350] instance 'ilmb_v10' of module 'adc_ilmb_v10_1' requires 25 connections, but only 24 given [D:/Vivado/ADC/ADC.srcs/sources_1/bd/adc/synth/adc.v:1249]
+INFO: [Synth 8-6157] synthesizing module 'adc_lmb_bram_1' [D:/Vivado/ADC/ADC.runs/synth_1/.Xil/Vivado-16676-LAPTOP-N8Q4I7FI/realtime/adc_lmb_bram_1_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'adc_lmb_bram_1' (14#1) [D:/Vivado/ADC/ADC.runs/synth_1/.Xil/Vivado-16676-LAPTOP-N8Q4I7FI/realtime/adc_lmb_bram_1_stub.v:6]
+WARNING: [Synth 8-350] instance 'lmb_bram' of module 'adc_lmb_bram_1' requires 16 connections, but only 14 given [D:/Vivado/ADC/ADC.srcs/sources_1/bd/adc/synth/adc.v:1274]
+INFO: [Synth 8-6155] done synthesizing module 'microblaze_0_local_memory_imp_194RUMY' (15#1) [D:/Vivado/ADC/ADC.srcs/sources_1/bd/adc/synth/adc.v:1057]
+INFO: [Synth 8-6157] synthesizing module 'adc_rst_clk_wiz_1_100M_1' [D:/Vivado/ADC/ADC.runs/synth_1/.Xil/Vivado-16676-LAPTOP-N8Q4I7FI/realtime/adc_rst_clk_wiz_1_100M_1_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'adc_rst_clk_wiz_1_100M_1' (16#1) [D:/Vivado/ADC/ADC.runs/synth_1/.Xil/Vivado-16676-LAPTOP-N8Q4I7FI/realtime/adc_rst_clk_wiz_1_100M_1_stub.v:6]
+WARNING: [Synth 8-350] instance 'rst_clk_wiz_1_100M' of module 'adc_rst_clk_wiz_1_100M_1' requires 10 connections, but only 8 given [D:/Vivado/ADC/ADC.srcs/sources_1/bd/adc/synth/adc.v:308]
+INFO: [Synth 8-6157] synthesizing module 'adc_xadc_wiz_0_1' [D:/Vivado/ADC/ADC.runs/synth_1/.Xil/Vivado-16676-LAPTOP-N8Q4I7FI/realtime/adc_xadc_wiz_0_1_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'adc_xadc_wiz_0_1' (17#1) [D:/Vivado/ADC/ADC.runs/synth_1/.Xil/Vivado-16676-LAPTOP-N8Q4I7FI/realtime/adc_xadc_wiz_0_1_stub.v:5]
+WARNING: [Synth 8-350] instance 'xadc_wiz_0' of module 'adc_xadc_wiz_0_1' requires 29 connections, but only 23 given [D:/Vivado/ADC/ADC.srcs/sources_1/bd/adc/synth/adc.v:317]
+INFO: [Synth 8-6155] done synthesizing module 'adc' (18#1) [D:/Vivado/ADC/ADC.srcs/sources_1/bd/adc/synth/adc.v:13]
+INFO: [Synth 8-6155] done synthesizing module 'adc_wrapper' (19#1) [D:/Vivado/ADC/ADC.srcs/sources_1/bd/adc/hdl/adc_wrapper.v:12]
+WARNING: [Synth 8-3331] design s00_couplers_imp_1R64CXU has unconnected port M_ACLK
+WARNING: [Synth 8-3331] design s00_couplers_imp_1R64CXU has unconnected port M_ARESETN
+WARNING: [Synth 8-3331] design s00_couplers_imp_1R64CXU has unconnected port S_ACLK
+WARNING: [Synth 8-3331] design s00_couplers_imp_1R64CXU has unconnected port S_ARESETN
+WARNING: [Synth 8-3331] design m01_couplers_imp_15Y116L has unconnected port M_ACLK
+WARNING: [Synth 8-3331] design m01_couplers_imp_15Y116L has unconnected port M_ARESETN
+WARNING: [Synth 8-3331] design m01_couplers_imp_15Y116L has unconnected port S_ACLK
+WARNING: [Synth 8-3331] design m01_couplers_imp_15Y116L has unconnected port S_ARESETN
+WARNING: [Synth 8-3331] design m00_couplers_imp_KQG914 has unconnected port M_ACLK
+WARNING: [Synth 8-3331] design m00_couplers_imp_KQG914 has unconnected port M_ARESETN
+WARNING: [Synth 8-3331] design m00_couplers_imp_KQG914 has unconnected port S_ACLK
+WARNING: [Synth 8-3331] design m00_couplers_imp_KQG914 has unconnected port S_ARESETN
+WARNING: [Synth 8-3331] design adc_microblaze_0_axi_periph_1 has unconnected port M00_ACLK
+WARNING: [Synth 8-3331] design adc_microblaze_0_axi_periph_1 has unconnected port M00_ARESETN
+WARNING: [Synth 8-3331] design adc_microblaze_0_axi_periph_1 has unconnected port M01_ACLK
+WARNING: [Synth 8-3331] design adc_microblaze_0_axi_periph_1 has unconnected port M01_ARESETN
+WARNING: [Synth 8-3331] design adc_microblaze_0_axi_periph_1 has unconnected port S00_ACLK
+WARNING: [Synth 8-3331] design adc_microblaze_0_axi_periph_1 has unconnected port S00_ARESETN
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:01 ; elapsed = 00:00:03 . Memory (MB): peak = 473.855 ; gain = 158.160
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:01 ; elapsed = 00:00:03 . Memory (MB): peak = 473.855 ; gain = 158.160
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:01 ; elapsed = 00:00:03 . Memory (MB): peak = 473.855 ; gain = 158.160
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7a35tcsg324-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [d:/Vivado/ADC/ADC.srcs/sources_1/bd/adc/ip/adc_microblaze_0_1/adc_microblaze_0_1/adc_microblaze_0_1_in_context.xdc] for cell 'adc_i/microblaze_0'
+Finished Parsing XDC File [d:/Vivado/ADC/ADC.srcs/sources_1/bd/adc/ip/adc_microblaze_0_1/adc_microblaze_0_1/adc_microblaze_0_1_in_context.xdc] for cell 'adc_i/microblaze_0'
+Parsing XDC File [d:/Vivado/ADC/ADC.srcs/sources_1/bd/adc/ip/adc_axi_uartlite_0_1/adc_axi_uartlite_0_1/adc_axi_uartlite_0_0_in_context.xdc] for cell 'adc_i/axi_uartlite_0'
+Finished Parsing XDC File [d:/Vivado/ADC/ADC.srcs/sources_1/bd/adc/ip/adc_axi_uartlite_0_1/adc_axi_uartlite_0_1/adc_axi_uartlite_0_0_in_context.xdc] for cell 'adc_i/axi_uartlite_0'
+Parsing XDC File [d:/Vivado/ADC/ADC.srcs/sources_1/bd/adc/ip/adc_dlmb_v10_1/adc_dlmb_v10_1/adc_dlmb_v10_0_in_context.xdc] for cell 'adc_i/microblaze_0_local_memory/dlmb_v10'
+Finished Parsing XDC File [d:/Vivado/ADC/ADC.srcs/sources_1/bd/adc/ip/adc_dlmb_v10_1/adc_dlmb_v10_1/adc_dlmb_v10_0_in_context.xdc] for cell 'adc_i/microblaze_0_local_memory/dlmb_v10'
+Parsing XDC File [d:/Vivado/ADC/ADC.srcs/sources_1/bd/adc/ip/adc_ilmb_v10_1/adc_ilmb_v10_1/adc_dlmb_v10_0_in_context.xdc] for cell 'adc_i/microblaze_0_local_memory/ilmb_v10'
+Finished Parsing XDC File [d:/Vivado/ADC/ADC.srcs/sources_1/bd/adc/ip/adc_ilmb_v10_1/adc_ilmb_v10_1/adc_dlmb_v10_0_in_context.xdc] for cell 'adc_i/microblaze_0_local_memory/ilmb_v10'
+Parsing XDC File [d:/Vivado/ADC/ADC.srcs/sources_1/bd/adc/ip/adc_dlmb_bram_if_cntlr_1/adc_dlmb_bram_if_cntlr_1/adc_dlmb_bram_if_cntlr_0_in_context.xdc] for cell 'adc_i/microblaze_0_local_memory/dlmb_bram_if_cntlr'
+Finished Parsing XDC File [d:/Vivado/ADC/ADC.srcs/sources_1/bd/adc/ip/adc_dlmb_bram_if_cntlr_1/adc_dlmb_bram_if_cntlr_1/adc_dlmb_bram_if_cntlr_0_in_context.xdc] for cell 'adc_i/microblaze_0_local_memory/dlmb_bram_if_cntlr'
+Parsing XDC File [d:/Vivado/ADC/ADC.srcs/sources_1/bd/adc/ip/adc_ilmb_bram_if_cntlr_1/adc_ilmb_bram_if_cntlr_1/adc_ilmb_bram_if_cntlr_0_in_context.xdc] for cell 'adc_i/microblaze_0_local_memory/ilmb_bram_if_cntlr'
+Finished Parsing XDC File [d:/Vivado/ADC/ADC.srcs/sources_1/bd/adc/ip/adc_ilmb_bram_if_cntlr_1/adc_ilmb_bram_if_cntlr_1/adc_ilmb_bram_if_cntlr_0_in_context.xdc] for cell 'adc_i/microblaze_0_local_memory/ilmb_bram_if_cntlr'
+Parsing XDC File [d:/Vivado/ADC/ADC.srcs/sources_1/bd/adc/ip/adc_lmb_bram_1/adc_lmb_bram_1/adc_lmb_bram_1_in_context.xdc] for cell 'adc_i/microblaze_0_local_memory/lmb_bram'
+Finished Parsing XDC File [d:/Vivado/ADC/ADC.srcs/sources_1/bd/adc/ip/adc_lmb_bram_1/adc_lmb_bram_1/adc_lmb_bram_1_in_context.xdc] for cell 'adc_i/microblaze_0_local_memory/lmb_bram'
+Parsing XDC File [d:/Vivado/ADC/ADC.srcs/sources_1/bd/adc/ip/adc_mdm_1_1/adc_mdm_1_1/adc_mdm_1_0_in_context.xdc] for cell 'adc_i/mdm_1'
+Finished Parsing XDC File [d:/Vivado/ADC/ADC.srcs/sources_1/bd/adc/ip/adc_mdm_1_1/adc_mdm_1_1/adc_mdm_1_0_in_context.xdc] for cell 'adc_i/mdm_1'
+Parsing XDC File [d:/Vivado/ADC/ADC.srcs/sources_1/bd/adc/ip/adc_clk_wiz_1_1/adc_clk_wiz_1_1/adc_clk_wiz_1_1_in_context.xdc] for cell 'adc_i/clk_wiz_1'
+Finished Parsing XDC File [d:/Vivado/ADC/ADC.srcs/sources_1/bd/adc/ip/adc_clk_wiz_1_1/adc_clk_wiz_1_1/adc_clk_wiz_1_1_in_context.xdc] for cell 'adc_i/clk_wiz_1'
+Parsing XDC File [d:/Vivado/ADC/ADC.srcs/sources_1/bd/adc/ip/adc_rst_clk_wiz_1_100M_1/adc_rst_clk_wiz_1_100M_1/adc_rst_clk_wiz_1_100M_0_in_context.xdc] for cell 'adc_i/rst_clk_wiz_1_100M'
+Finished Parsing XDC File [d:/Vivado/ADC/ADC.srcs/sources_1/bd/adc/ip/adc_rst_clk_wiz_1_100M_1/adc_rst_clk_wiz_1_100M_1/adc_rst_clk_wiz_1_100M_0_in_context.xdc] for cell 'adc_i/rst_clk_wiz_1_100M'
+Parsing XDC File [d:/Vivado/ADC/ADC.srcs/sources_1/bd/adc/ip/adc_xbar_1/adc_xbar_1/adc_xbar_0_in_context.xdc] for cell 'adc_i/microblaze_0_axi_periph/xbar'
+Finished Parsing XDC File [d:/Vivado/ADC/ADC.srcs/sources_1/bd/adc/ip/adc_xbar_1/adc_xbar_1/adc_xbar_0_in_context.xdc] for cell 'adc_i/microblaze_0_axi_periph/xbar'
+Parsing XDC File [d:/Vivado/ADC/ADC.srcs/sources_1/bd/adc/ip/adc_xadc_wiz_0_1/adc_xadc_wiz_0_1/adc_xadc_wiz_0_1_in_context.xdc] for cell 'adc_i/xadc_wiz_0'
+Finished Parsing XDC File [d:/Vivado/ADC/ADC.srcs/sources_1/bd/adc/ip/adc_xadc_wiz_0_1/adc_xadc_wiz_0_1/adc_xadc_wiz_0_1_in_context.xdc] for cell 'adc_i/xadc_wiz_0'
+Parsing XDC File [D:/Vivado/ADC/ADC.srcs/constrs_1/new/test1.xdc]
+Finished Parsing XDC File [D:/Vivado/ADC/ADC.srcs/constrs_1/new/test1.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [D:/Vivado/ADC/ADC.srcs/constrs_1/new/test1.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/adc_wrapper_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/adc_wrapper_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Parsing XDC File [D:/Vivado/ADC/ADC.runs/synth_1/dont_touch.xdc]
+Finished Parsing XDC File [D:/Vivado/ADC/ADC.runs/synth_1/dont_touch.xdc]
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 765.816 ; gain = 0.000
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 765.816 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 765.816 ; gain = 0.000
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.006 . Memory (MB): peak = 765.816 ; gain = 0.000
+WARNING: [Timing 38-316] Clock period '20.000' specified during out-of-context synthesis of instance 'adc_i/microblaze_0_local_memory/lmb_bram' at clock pin 'clka' is different from the actual clock period '10.000', this can lead to different synthesis results.
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:03 ; elapsed = 00:00:11 . Memory (MB): peak = 765.816 ; gain = 450.121
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a35tcsg324-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:03 ; elapsed = 00:00:11 . Memory (MB): peak = 765.816 ; gain = 450.121
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property IO_BUFFER_TYPE = NONE for clk_100MHz. (constraint file  d:/Vivado/ADC/ADC.srcs/sources_1/bd/adc/ip/adc_clk_wiz_1_1/adc_clk_wiz_1_1/adc_clk_wiz_1_1_in_context.xdc, line 3).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for clk_100MHz. (constraint file  d:/Vivado/ADC/ADC.srcs/sources_1/bd/adc/ip/adc_clk_wiz_1_1/adc_clk_wiz_1_1/adc_clk_wiz_1_1_in_context.xdc, line 4).
+Applied set_property DONT_TOUCH = true for adc_i. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for adc_i/microblaze_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for adc_i/axi_uartlite_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for adc_i/microblaze_0_local_memory/dlmb_v10. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for adc_i/microblaze_0_local_memory/ilmb_v10. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for adc_i/microblaze_0_local_memory/dlmb_bram_if_cntlr. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for adc_i/microblaze_0_local_memory/ilmb_bram_if_cntlr. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for adc_i/microblaze_0_local_memory/lmb_bram. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for adc_i/mdm_1. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for adc_i/clk_wiz_1. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for adc_i/rst_clk_wiz_1_100M. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for adc_i/microblaze_0_axi_periph/xbar. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for adc_i/microblaze_0_axi_periph. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for adc_i/xadc_wiz_0. (constraint file  auto generated constraint, line ).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:03 ; elapsed = 00:00:11 . Memory (MB): peak = 765.816 ; gain = 450.121
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:03 ; elapsed = 00:00:11 . Memory (MB): peak = 765.816 ; gain = 450.121
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 90 (col length:60)
+BRAMs: 100 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+WARNING: [Synth 8-3331] design adc_microblaze_0_axi_periph_1 has unconnected port M00_ACLK
+WARNING: [Synth 8-3331] design adc_microblaze_0_axi_periph_1 has unconnected port M00_ARESETN
+WARNING: [Synth 8-3331] design adc_microblaze_0_axi_periph_1 has unconnected port M01_ACLK
+WARNING: [Synth 8-3331] design adc_microblaze_0_axi_periph_1 has unconnected port M01_ARESETN
+WARNING: [Synth 8-3331] design adc_microblaze_0_axi_periph_1 has unconnected port S00_ACLK
+WARNING: [Synth 8-3331] design adc_microblaze_0_axi_periph_1 has unconnected port S00_ARESETN
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:03 ; elapsed = 00:00:11 . Memory (MB): peak = 765.816 ; gain = 450.121
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5578] Moved timing constraint from pin 'adc_i/microblaze_0_local_memory/dlmb_bram_if_cntlr/BRAM_Clk_A' to pin 'adc_i/microblaze_0_local_memory/dlmb_bram_if_cntlr/bbstub_BRAM_Clk_A/O'
+INFO: [Synth 8-5578] Moved timing constraint from pin 'adc_i/microblaze_0_local_memory/ilmb_bram_if_cntlr/BRAM_Clk_A' to pin 'adc_i/microblaze_0_local_memory/ilmb_bram_if_cntlr/bbstub_BRAM_Clk_A/O'
+INFO: [Synth 8-5578] Moved timing constraint from pin 'adc_i/mdm_1/Dbg_Clk_0' to pin 'adc_i/mdm_1/bbstub_Dbg_Clk_0/O'
+INFO: [Synth 8-5578] Moved timing constraint from pin 'adc_i/mdm_1/Dbg_Update_0' to pin 'adc_i/mdm_1/bbstub_Dbg_Update_0/O'
+INFO: [Synth 8-5578] Moved timing constraint from pin 'adc_i/clk_wiz_1/clk_out1' to pin 'adc_i/clk_wiz_1/bbstub_clk_out1/O'
+INFO: [Synth 8-5819] Moved 5 constraints on hierarchical pins to their respective driving/loading pins
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:04 ; elapsed = 00:00:18 . Memory (MB): peak = 784.090 ; gain = 468.395
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:04 ; elapsed = 00:00:18 . Memory (MB): peak = 784.238 ; gain = 468.543
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:05 ; elapsed = 00:00:18 . Memory (MB): peak = 794.020 ; gain = 478.324
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:05 ; elapsed = 00:00:19 . Memory (MB): peak = 794.020 ; gain = 478.324
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:05 ; elapsed = 00:00:19 . Memory (MB): peak = 794.020 ; gain = 478.324
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:05 ; elapsed = 00:00:19 . Memory (MB): peak = 794.020 ; gain = 478.324
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:05 ; elapsed = 00:00:19 . Memory (MB): peak = 794.020 ; gain = 478.324
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:05 ; elapsed = 00:00:19 . Memory (MB): peak = 794.020 ; gain = 478.324
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:05 ; elapsed = 00:00:19 . Memory (MB): peak = 794.020 ; gain = 478.324
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++------+-------------------------+----------+
+|      |BlackBox name            |Instances |
++------+-------------------------+----------+
+|1     |adc_xbar_1               |         1|
+|2     |adc_axi_uartlite_0_1     |         1|
+|3     |adc_clk_wiz_1_1          |         1|
+|4     |adc_mdm_1_1              |         1|
+|5     |adc_microblaze_0_1       |         1|
+|6     |adc_rst_clk_wiz_1_100M_1 |         1|
+|7     |adc_xadc_wiz_0_1         |         1|
+|8     |adc_dlmb_bram_if_cntlr_1 |         1|
+|9     |adc_dlmb_v10_1           |         1|
+|10    |adc_ilmb_bram_if_cntlr_1 |         1|
+|11    |adc_ilmb_v10_1           |         1|
+|12    |adc_lmb_bram_1           |         1|
++------+-------------------------+----------+
+
+Report Cell Usage: 
++------+-------------------------+------+
+|      |Cell                     |Count |
++------+-------------------------+------+
+|1     |adc_axi_uartlite_0_1     |     1|
+|2     |adc_clk_wiz_1_1          |     1|
+|3     |adc_dlmb_bram_if_cntlr_1 |     1|
+|4     |adc_dlmb_v10_1           |     1|
+|5     |adc_ilmb_bram_if_cntlr_1 |     1|
+|6     |adc_ilmb_v10_1           |     1|
+|7     |adc_lmb_bram_1           |     1|
+|8     |adc_mdm_1_1              |     1|
+|9     |adc_microblaze_0_1       |     1|
+|10    |adc_rst_clk_wiz_1_100M_1 |     1|
+|11    |adc_xadc_wiz_0_1         |     1|
+|12    |adc_xbar_1               |     1|
+|13    |IBUF                     |     6|
+|14    |OBUF                     |     1|
++------+-------------------------+------+
+
+Report Instance Areas: 
++------+------------------------------+--------------------------------------+------+
+|      |Instance                      |Module                                |Cells |
++------+------------------------------+--------------------------------------+------+
+|1     |top                           |                                      |  1101|
+|2     |  adc_i                       |adc                                   |  1094|
+|3     |    microblaze_0_axi_periph   |adc_microblaze_0_axi_periph_1         |   263|
+|4     |    microblaze_0_local_memory |microblaze_0_local_memory_imp_194RUMY |   496|
++------+------------------------------+--------------------------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:05 ; elapsed = 00:00:19 . Memory (MB): peak = 794.020 ; gain = 478.324
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 6 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:03 ; elapsed = 00:00:14 . Memory (MB): peak = 794.020 ; gain = 186.363
+Synthesis Optimization Complete : Time (s): cpu = 00:00:05 ; elapsed = 00:00:19 . Memory (MB): peak = 794.020 ; gain = 478.324
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 804.961 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+57 Infos, 33 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:05 ; elapsed = 00:00:21 . Memory (MB): peak = 805.027 ; gain = 496.234
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 805.027 ; gain = 0.000
+WARNING: [Constraints 18-5210] No constraints selected for write.
+Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
+INFO: [Common 17-1381] The checkpoint 'D:/Vivado/ADC/ADC.runs/synth_1/adc_wrapper.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file adc_wrapper_utilization_synth.rpt -pb adc_wrapper_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Thu Dec  8 16:30:14 2022...

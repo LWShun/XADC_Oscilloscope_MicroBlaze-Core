@@ -1,0 +1,24 @@
+vhdl xil_defaultlib  \
+"../../../bd/adc/ip/adc_microblaze_0_1/sim/adc_microblaze_0_1.vhd" \
+"../../../bd/adc/ip/adc_axi_uartlite_0_1/sim/adc_axi_uartlite_0_1.vhd" \
+"../../../bd/adc/ip/adc_dlmb_v10_1/sim/adc_dlmb_v10_1.vhd" \
+"../../../bd/adc/ip/adc_ilmb_v10_1/sim/adc_ilmb_v10_1.vhd" \
+"../../../bd/adc/ip/adc_dlmb_bram_if_cntlr_1/sim/adc_dlmb_bram_if_cntlr_1.vhd" \
+"../../../bd/adc/ip/adc_ilmb_bram_if_cntlr_1/sim/adc_ilmb_bram_if_cntlr_1.vhd" \
+"../../../bd/adc/ip/adc_mdm_1_1/sim/adc_mdm_1_1.vhd" \
+"../../../bd/adc/ip/adc_rst_clk_wiz_1_100M_1/sim/adc_rst_clk_wiz_1_100M_1.vhd" \
+"../../../bd/adc/ip/adc_xadc_wiz_0_1/proc_common_v3_30_a/hdl/src/vhdl/adc_xadc_wiz_0_1_conv_funs_pkg.vhd" \
+"../../../bd/adc/ip/adc_xadc_wiz_0_1/proc_common_v3_30_a/hdl/src/vhdl/adc_xadc_wiz_0_1_proc_common_pkg.vhd" \
+"../../../bd/adc/ip/adc_xadc_wiz_0_1/proc_common_v3_30_a/hdl/src/vhdl/adc_xadc_wiz_0_1_ipif_pkg.vhd" \
+"../../../bd/adc/ip/adc_xadc_wiz_0_1/proc_common_v3_30_a/hdl/src/vhdl/adc_xadc_wiz_0_1_family_support.vhd" \
+"../../../bd/adc/ip/adc_xadc_wiz_0_1/proc_common_v3_30_a/hdl/src/vhdl/adc_xadc_wiz_0_1_family.vhd" \
+"../../../bd/adc/ip/adc_xadc_wiz_0_1/proc_common_v3_30_a/hdl/src/vhdl/adc_xadc_wiz_0_1_soft_reset.vhd" \
+"../../../bd/adc/ip/adc_xadc_wiz_0_1/proc_common_v3_30_a/hdl/src/vhdl/adc_xadc_wiz_0_1_pselect_f.vhd" \
+"../../../bd/adc/ip/adc_xadc_wiz_0_1/axi_lite_ipif_v1_01_a/hdl/src/vhdl/adc_xadc_wiz_0_1_address_decoder.vhd" \
+"../../../bd/adc/ip/adc_xadc_wiz_0_1/axi_lite_ipif_v1_01_a/hdl/src/vhdl/adc_xadc_wiz_0_1_slave_attachment.vhd" \
+"../../../bd/adc/ip/adc_xadc_wiz_0_1/interrupt_control_v2_01_a/hdl/src/vhdl/adc_xadc_wiz_0_1_interrupt_control.vhd" \
+"../../../bd/adc/ip/adc_xadc_wiz_0_1/axi_lite_ipif_v1_01_a/hdl/src/vhdl/adc_xadc_wiz_0_1_axi_lite_ipif.vhd" \
+"../../../bd/adc/ip/adc_xadc_wiz_0_1/adc_xadc_wiz_0_1_xadc_core_drp.vhd" \
+"../../../bd/adc/ip/adc_xadc_wiz_0_1/adc_xadc_wiz_0_1_axi_xadc.vhd" \
+
+nosort

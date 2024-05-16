@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item value="D:\Vivado\ADC\ADC.sdk\nn\Debug\nn.elf" key="adc_wrapper_hw_platform_0-microblaze_0-initElf"/>
+	<item value="adc_wrapper.mmi" key="adc_wrapper_hw_platform_0-bmmFile"/>
+	<item value="Local" key="adc_wrapper_hw_platform_0-target"/>
+	<item value="Auto Detect" key="adc_wrapper_hw_platform_0-device"/>
+	<item value="adc_wrapper_hw_platform_0" key="programfpga.hwplatform"/>
+	<item value="false" key="adc_wrapper_hw_platform_0-partial_bit"/>
+	<item value="adc_wrapper.bit" key="adc_wrapper_hw_platform_0-bitFile"/>
+</section>
